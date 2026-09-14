@@ -158,6 +158,7 @@ func Provider() *schema.Provider {
 			"newrelic_cloud_aws_link_account":                   resourceNewRelicCloudAwsAccountLinkAccount(),
 			"newrelic_cloud_azure_link_account":                 resourceNewRelicCloudAzureLinkAccount(),
 			"newrelic_cloud_azure_integrations":                 resourceNewRelicCloudAzureIntegrations(),
+			"newrelic_cloud_cci_azure_integration":              resourceNewRelicCloudCciAzureIntegration(),
 			"newrelic_cloud_gcp_integrations":                   resourceNewrelicCloudGcpIntegrations(),
 			"newrelic_cloud_gcp_link_account":                   resourceNewRelicCloudGcpLinkAccount(),
 			"newrelic_cloud_oci_link_account":                   resourceNewRelicCloudOciAccountLinkAccount(),
